@@ -60,6 +60,8 @@ New-AzResourceGroup -Name "rg-instructors" -Location "EastUS" -Tag @{prj="classr
 ```
 
 ## Step 4: Assign IAM Permissions
+- Assign each student to their resource group
+- Assign instructors to the subscription
 
 ## Step 5: Create Alerting Thresholds
 - Create action group that contains the instructors
