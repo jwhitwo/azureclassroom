@@ -1,0 +1,97 @@
+{
+    "class": "CS 130",
+    "people": [
+        {
+            "id": "studentA",
+            "account": "studenta@domain.edu",
+            "instructor": false
+        },
+        {
+            "id": "studentB",
+            "account": "studentb@domain.edu",
+            "instructor": false
+        },
+        {
+            "id": "studentC",
+            "account": "studentc@domain.edu",
+            "instructor": false
+        },
+        {
+            "id": "studentD",
+            "account": "studentd@domain.edu",
+            "instructor": false
+        },
+        {
+            "id": "instructor1",
+            "account": "instructor1@domain.edu",
+            "instructor": true
+        },
+        {
+            "id": "instructor2",
+            "account": "instructor2@domain.edu",
+            "instructor": true
+        }
+    ],
+    "thresholds": [
+    {
+        "name": "Module 1 - Halfway",
+        "warning": 5,
+        "notify-instructor": false
+    },
+    {
+        "name": "Module 1 - Full",
+        "warning": 10,
+        "notify-instructor": false
+    },
+    {
+        "name": "Module 1 - Over",
+        "warning": 12,
+        "notify-instructor": true
+    },
+    {
+        "name": "Module 2 - Halfway",
+        "warning": 20,
+        "notify-instructor": false
+    },
+    {
+        "name": "Module 2 - Full",
+        "warning": 30,
+        "notify-instructor": false
+    },
+    {
+        "name": "Module 2 - Over",
+        "warning": 32,
+        "notify-instructor": false
+    },
+    {
+        "name": "Module 3 - Halfway",
+        "warning": 45,
+        "notify-instructor": false
+    },
+    {
+        "name": "Module 3 - Full",
+        "warning": 60,
+        "notify-instructor": false
+    },
+    {
+        "name": "Module 3 - Over",
+        "warning": 62,
+        "notify-instructor": true
+    },
+    {
+        "name": "Module 4 - Halfway",
+        "warning": 80,
+        "notify-instructor": false
+    },
+    {
+        "name": "Module 4 - Full",
+        "warning": 100,
+        "notify-instructor": true
+    },
+    {
+        "name": "Module 3 - Over",
+        "warning": 102,
+        "notify-instructor": true
+    }
+    ]
+}
