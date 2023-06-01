@@ -63,16 +63,6 @@ New-AzResourceGroup -Name "rg-instructors" -Location "EastUS" -Tag @{prj="classr
 
 ## Step 5: Create Alerting Thresholds
 - Create action group that contains the instructors
-```PowerShell
-foreach($user in $roster)
-{
-    if($user.instructor)
-    {
-         New-AzResourceGroup -Name "rg-$($user.id)" -Location "EastUS" -Tag @{prj="classroom"}
-         Set-AzActionGroup 
-    }
-}
-```
 
 ## Optional Steps
 
